@@ -1,19 +1,19 @@
-# Cupid's Click
+# Wesley Click
 
-This is a dating simulation website for Valentine's Day. It's also an internal training project for the new members of Exercise FTUI.
+This is a dating simulation website for Wesley's birthday. It was originally an internal training project for the new members of Exercise FTUI called Cupid's Click. That repos is [here](https://github.com/Tianrider/Cupids_Click)
 
-## About Us
+## About Me
 
-We are Team A of Exercise FTUI 2024. We are the Cupid's Crew, and we are here to help you find your true love. We are a group of passionate individuals who are dedicated to helping
+I'm a computer engineering student at Universitas Indonesia and a member of the software deparmtment of Exercise FTUI. My name is Edgrant Henderson Suryajaya.
 
-### Members  
+### Cupid's Click Original Members  
 
 - **Manager:**	Wiellona Darlene Oderia Saragih
 - **Relation:**	Naira Raissa Hulaemi
 - **Creative:**	Aliya Rizqiningrum Salamun
 - **Design:**	Muhammad Riyan Satrio Wibowo
 - **Design:**	Clarissa
-- **Software:**	Edgrant Henderson Suryajaya
+- **Software:**	Edgrant Henderson Suryajaya (**Me**)
 - **Software:**	Christian Hadiwijaya
 - **Software:**	Naufal Hani Zakwan
 - **Software:**	Jonathan Frederick Kosasih
@@ -26,7 +26,7 @@ The project is structured as follows:
 - `src/`: Contains the source code of the application.
   - `App.jsx`: The main application component.
   - `components/`: Contains reusable components like `ChoicesBox`, `DialogBox`, and `TextBox`.
-  - `pages/`: Contains the different pages of the application like `MainPage`, `GoodEnding`, `BadEnding`, `NoOne`, `NoTwo`, `NoThree`, `No...`.
+  - `pages/`: Contains the different pages of the application like `MainPage`, `GoodEnding`, ...
   - `main.css`: Contains the main CSS styles for the application.
   - `main.jsx`: The entry point of the application.
 - `public/`: Contains public assets that will be served by the server.
@@ -34,7 +34,7 @@ The project is structured as follows:
 - `package.json`: Contains the list of project dependencies and scripts.
 - `postcss.config.js`, `tailwind.config.js`, `vite.config.js`: Configuration files for PostCSS, Tailwind CSS, and Vite respectively.
 
-## Pages
+## Pages (Outdated)
 
 - `MainPage`: The main page of the application. This is where the story begins. 
 - `GoodEnding`: The page displayed when the player achieves a good ending.
@@ -54,9 +54,9 @@ This template provides a minimal setup to get React working in Vite with HMR and
 To set up the project, follow these steps:
 
 1. Clone the repository.
-2. Install the dependencies with `npm install`.
+2. Install the dependencies with `npm install --legacy-peer-deps`.
 3. Start the development server with `npm run dev`.
 
 ## Contributing
 
-If you want to contribute to this project, please create a new branch and submit a pull request.
+If you want to contribute to this project, please do so in the original Cupid's Click repository [here](https://github.com/Tianrider/Cupids_Click)
