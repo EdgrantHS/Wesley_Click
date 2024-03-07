@@ -75,33 +75,19 @@ function GoodEnding() {
                   <div className="p-3">
                      <p className="font-serif italic text-center bg-gradient-to-r">
                         <TypeAnimation
-                           sequence={["", 3500, "My Bravest Confession"]}
+                           sequence={["", 3500, "Birthday Boy"]}
                            wrapper="span"
                            speed={5}
                            style={{ fontSize: "2rem", color: "indigo" }}
                         />
                      </p>
                      <h1 className="font-Cormorant font-bold pt-5 text-2xl text-pink-800">
-                        Dear Dayu Aventail,{" "}
+                        HAPPY Birtday Wesleyyyyy!!!!!!!!!,{" "}
                      </h1>
                      <p className="font-Cormorant font-bold text-pink-800">
-                        YOU FILL MY HEART WITH JOY 💖
-                        <br />
-                        We&apos;re now officially partners in Valentine&apos;s
-                        adventures! :o
-                        <br />
-                        <br />
-                        This is officially my best day because you&apos;re
-                        choosing me! In return, I promise to fill your days with
-                        endless joy and to cherish every moment we share,
-                        ensuring you never have a reason to doubt your choice.
-                        <br /> <br />
-                        Are you ready to start the amazing journey ahead of us
-                        together with me? Let&apos;s create unforgettable
-                        memories and share our days filled with affection and
-                        delightful surprises! All&apos;s well that ends well to
-                        end up with you 💝
-                        <br /> <br />
+                        I hope you had a wonderful day filled with joy and happiness.  <br/>
+                        May all your dreams and wishes come true. <br />
+                        Cheers to another amazing year ahead! Happy birthday! <br /> <br />
                      </p>
                      <p className="italic font-Cormorant font-bold text-pink-800">
                         “Love&apos;s script ends with us together, a perfect
@@ -110,7 +96,7 @@ function GoodEnding() {
                         <br />
                      </p>
                      <p className="font-Cormorant font-bold text-pink-800">
-                        Sincerely yours, Vinago💐
+                        Sincerely yours, Edgrant💐
                      </p>
                      <div className="pt-4 flex items-end justify-end">
                         <button

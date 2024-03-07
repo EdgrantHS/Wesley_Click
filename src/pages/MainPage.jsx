@@ -4,7 +4,7 @@ import { delay, motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import soundTrack from "../assets/mainPage-soundtrack.mp3";
 import { MdMusicOff, MdMusicNote } from "react-icons/md";
-import logo from "../assets/icon.png";
+import logo from "../assets/wsl.png";
 
 function IntroPage(props) {
    return (
@@ -15,7 +15,7 @@ function IntroPage(props) {
          onAnimationComplete={props.handleAnimationComplete()}
       >
          <TypeAnimation
-            sequence={["", 400, "Hi Sayang,"]}
+            sequence={["", 400, "Hi Wesley,"]}
             wrapper="span"
             speed={10}
             style={{ fontWeight: "bold" }}
@@ -23,7 +23,7 @@ function IntroPage(props) {
             className="text-5xl text-white twinkle-star-regular md:text-6xl"
          />
          <TypeAnimation
-            sequence={["", 2000, "💕Website ini Untuk Kamu💕"]}
+            sequence={["", 2000, "🎉Website ini Untuk Kamu🎉"]}
             wrapper="span"
             speed={15}
             style={{ fontWeight: "bold" }}
@@ -111,18 +111,16 @@ function MainPage() {
                   <br />
                   "Hi" and "Bye," just a few fleeting lines,
                   <br />
-                  Yet my heart still longs for those moments divine.
                   <br />
-                  <br />
-                  Embark on this journey of the heart,
+                  Embark on this journey that marks your start,
                   <br />
                   Where every choice crafts our story's part,
                   <br />
-                  I'll pose a question, sincere and true,
+                  I'll, too, be there, playing my part
                   <br />
                   <br />
                   <span id="libre-baskerville-italic">
-                     Will you be my Valentine?
+                     Happy Birthday Wesley!!! 🎉🎉🎉
                   </span>
                </p>
                <a

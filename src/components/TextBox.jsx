@@ -12,7 +12,7 @@ const TextBox = (props) => {
       >
          <div className="bg-pink-900 rounded-md flex align-center justify-center absolute bottom-[41dvw] md:bottom-[23dvh] z-1">
             <h1 className="text-2xl quicksand-bold text-center px-9 py-[10px] text-white">
-               Christoff Vinago
+               Cristian Hadiwijaya
             </h1>
          </div>
          <p className="text-[4dvw] md:text-2xl quicksand text-pink-900 my-4">

@@ -21,28 +21,22 @@ const NoOne = () => {
    const texts1 = [
       "Hi :)",
       "Dengerin yaa",
-      "My honey....",
-      "I'll memorize every detail of your happiness, ",
-      "so I can be the only one who knows exactly how to bring a smile to your face, every single time.",
-      "Take a leap of faith.",
-      "Will you accept my feelings?",
+      "Wesley....",
+      "Hari ini aku tiba tiba kerasa kelupaan sesuatu",
+      "Tapi aku coba inget terus tapi tetep aja ga bisa ingat", 
+      "Kamu bisa bantuin gak",
+      "ada ide aku kelupaan apa gak?",
    ];
 
    const texts2 = [
-      "Etss, kepencet no ya?",
-      "Sebelum itu, gw ada pertanyaan",
-      "Lo mau 10 juta ga?",
-      "NAH!!",
-      "Jadi gini ya tutorial cara mencet tombol yes~~",
-      "Lets try again shall we?",
+      "Etss, kamu gak tau juga?",
+      "yahh coba aku inget inget lagi deh",
+      "Kamu beneran gak ada ide?",
+      "!!!!!!!!!",
+      "Aku tiba tiba inget~~",
+      "Kamu inget gak hari ini hari apa?",
    ];
 
-   useEffect(() => {
-      if (count >= 2) {
-         setChara1Visible(false);
-         setChara1BVisible(true);
-      }
-   }, [count]);
 
    const handleIncrement = () => {
       if (showTutorialVideo) {
@@ -87,17 +81,6 @@ const NoOne = () => {
          {isLoading && <LoadingScreen />}
          {showTutorialVideo ? (
             <div className="w-auto md:h-1/2 absolute z-0 left-1/2 top-[60dvw] md:top-[40dvh] transform -translate-x-1/2 -translate-y-1/2">
-               {count === 4 && (
-                  <img
-                     src={tutorialVideo}
-                     alt="tutorial video"
-                     className="max-w-[60vw] max-h-[60vw] md:mb-0 md:max-w-90 md:max-h-[24rem] w-auto rounded-2xl border-4 border-pink-600"
-                     style={{
-                        boxShadow:
-                           "box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;",
-                     }}
-                  />
-               )}
                {count === 5 && (
                   <div className="mx-10 my-[10dvh] md:my-[20dvh]">
                      <div
@@ -107,16 +90,16 @@ const NoOne = () => {
                         hover:bg-pink-900 hover:text-white hover:scale-105 transition-all duration-200"
                         onClick={() => (window.location.href = "/good-ending")}
                      >
-                        Yes
+                        ULANG TAHUN WESLEY
                      </div>
                      <div
                         className=" text-pink-900 quicksand-bold shadow py-1 px-4 mt-1 md:py-4 cursor-pointer text-center
                            border-[2px] border-pink-900
                            rounded-xl bg-pink-200 bg-opacity-[95%]
                            hover:bg-pink-900 hover:text-white hover:scale-105 transition-all duration-200"
-                        onClick={() => (window.location.href = "/no-two")}
+                        onClick={() => (window.location.href = "/good-ending")}
                      >
-                        Tetep Enggak!!
+                        Kayaknya ada ide deh
                      </div>
                   </div>
                )}
@@ -190,7 +173,7 @@ const NoOne = () => {
                         href="/good-ending"
                         className="block w-full h-full text-center" // Set the anchor tag to be block-level and cover the entire parent div
                      >
-                        Yes
+                        ulang tahun orang gak sih? 
                      </a>
                   </div>
                   <div
@@ -203,7 +186,7 @@ const NoOne = () => {
                         onClick={handleTutorialVideo} // Change handleBlueScreen to handleTutorialVideo
                         className="block w-full h-full text-center" // Set the anchor tag to be block-level and cover the entire parent div
                      >
-                        No
+                        Masih agak lupa
                      </a>
                   </div>
                </div>
